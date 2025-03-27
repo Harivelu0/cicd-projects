@@ -1,6 +1,6 @@
 # Kubernetes CI/CD Pipeline with Azure DevOps and ArgoCD
 
-This repository demonstrates a complete end-to-end CI/CD pipeline for a microservices-based voting application, leveraging Azure DevOps for continuous integration and ArgoCD for continuous deployment on Azure Kubernetes Service (AKS). The application i used is from dockersamples and a tutorial reference from Abisheck Veeramalla
+This repository demonstrates a complete end-to-end CI/CD pipeline for a microservices-based voting application, leveraging Azure DevOps for continuous integration and ArgoCD for continuous deployment on Azure Kubernetes Service (AKS). The application i used is from dockersamples
 
 ## Project Overview
 
