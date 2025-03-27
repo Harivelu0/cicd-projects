@@ -1,6 +1,6 @@
 # Kubernetes CI/CD Pipeline with Azure DevOps and ArgoCD
 
-This repository demonstrates a complete end-to-end CI/CD pipeline for a microservices-based voting application, leveraging Azure DevOps for continuous integration and ArgoCD for continuous deployment on Azure Kubernetes Service (AKS).
+This repository demonstrates a complete end-to-end CI/CD pipeline for a microservices-based voting application, leveraging Azure DevOps for continuous integration and ArgoCD for continuous deployment on Azure Kubernetes Service (AKS). The application i used is from dockersamples and a tutorial reference from Abisheck Veeramalla
 
 ## Project Overview
 
@@ -13,9 +13,12 @@ This project implements a modern DevOps workflow with:
 - **GitOps CD**: ArgoCD for declarative deployments
 - **Microservices**: Multiple containerized components working together
 
-![Architecture Diagram](path/to/architecture-diagram.png)
-
+  
 ## Application Architecture
+
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/feb262c9-49c5-4d71-8595-b9048cd1575d)
+
+
 
 The deployed application is a voting system with the following components:
 
@@ -181,4 +184,18 @@ yq eval ".spec.template.spec.containers[0].image = \"$4.azurecr.io/$2:$3\"" -i k
 3. **Application Access Issues**
    - Confirm NodePort services are properly configured
    - Verify network security group settings
+
+![Screenshot 2025-03-26 211930](https://github.com/user-attachments/assets/62942dd7-46f3-4cd8-800a-505bf3f62e67)
+
+![Screenshot 2025-03-27 010603](https://github.com/user-attachments/assets/06d9ed28-2ce9-4059-ad50-e42533a26fa9)
+
+
+![Screenshot 2025-03-27 010630](https://github.com/user-attachments/assets/1cebb8a9-fb47-4d16-8452-a2526bd71886)
+
+![Screenshot 2025-03-27 010650](https://github.com/user-attachments/assets/9d629aac-6b4e-4a95-8ffa-9ded959ec8d7)
+
+
+![Screenshot 2025-03-27 010402](https://github.com/user-attachments/assets/2a683429-cd6d-46f1-8a71-2e581e678263)
+
+![Screenshot 2025-03-27 010326](https://github.com/user-attachments/assets/e62817a5-0b51-4605-a991-e2588ba5e8fe)
 
