@@ -182,19 +182,3 @@ yq eval ".spec.template.spec.containers[0].image = \"$4.azurecr.io/$2:$3\"" -i k
    - Confirm NodePort services are properly configured
    - Verify network security group settings
 
-## Future Enhancements
-
-- Add monitoring with Prometheus and Grafana
-- Implement canary deployments
-- Add automated testing in the CI pipeline
-- Configure horizontal pod autoscaling
-
-## License
-
-[MIT](LICENSE)
-
-## Acknowledgements
-
-- [Example Voting App](https://github.com/dockersamples/example-voting-app)
-- [ArgoCD](https://argoproj.github.io/argo-cd/)
-- [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
